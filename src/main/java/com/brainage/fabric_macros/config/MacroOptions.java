@@ -23,7 +23,7 @@ public class MacroOptions implements ConfigData {
     }
 
     public static class MacroEntry {
-        public String macroName = "My Macro";
+        public String macroName = "My First Macro";
         @ConfigEntry.Gui.Tooltip()
         public boolean verticalMovementFailsafe = true;
         @ConfigEntry.Gui.Tooltip()
