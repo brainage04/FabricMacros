@@ -1,0 +1,36 @@
+{
+  "key.category.fabric_macros.macros": "Fabric Macros",
+  "key.fabric_macros.toggle_macro": "Toggle Macro",
+
+  "text.autoconfig.fabric_macros.title": "Fabric Macros Options",
+
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer": "Global Macro Options",
+
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.currentMacroIndex": "Current Macro Index",
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.currentMacroIndex.@Tooltip": "The index of the current macro in the Macro List being used.",
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.minReactionDuration": "Minimum Reaction Duration",
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.minReactionDuration.@Tooltip": "When the macro is disabled automatically, schedule it at least this many ticks in the future.",
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.maxReactionDuration": "Maximum Reaction Duration",
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.maxReactionDuration.@Tooltip": "When the macro is disabled automatically, schedule it at most this many ticks in the future.",
+
+  "text.autoconfig.fabric_macros.option.macroOptionsContainer.macroList": "Macro List",
+  "text.autoconfig.fabric_macros.option.macroList.macroEntries": "Macro Entries",
+  "text.autoconfig.fabric_macros.option.MacroEntry": "Macro Entry",
+  "text.autoconfig.fabric_macros.option.MacroEntry.macroName": "Macro Name",
+  "text.autoconfig.fabric_macros.option.MacroEntry.verticalMovementFailsafe": "Vertical Movement Failsafe",
+  "text.autoconfig.fabric_macros.option.MacroEntry.verticalMovementFailsafe.@Tooltip": "Macro will disable if vertical movement is detected at any point. Use this to combat unexpected holes.",
+  "text.autoconfig.fabric_macros.option.MacroEntry.horizontalMovementFailsafe": "Horizontal Movement Failsafe",
+  "text.autoconfig.fabric_macros.option.MacroEntry.horizontalMovementFailsafe.@Tooltip": "Macro will disable if horizontal movement is not detected at any point before the Minimum Step Duration. Use this to combat unexpected obstructions.",
+  "text.autoconfig.fabric_macros.option.MacroEntry.calibrateOnNextUse": "Calibrate On Next Use",
+  "text.autoconfig.fabric_macros.option.MacroEntry.calibrateOnNextUse.@Tooltip": "Macro will calibrate the Step Duration for each step the next time it is run. Minimum Step Duration will be set to (Step Duration - 40) by default.",
+  "text.autoconfig.fabric_macros.option.MacroEntry.stepEntries": "Steps",
+  "text.autoconfig.fabric_macros.option.StepEntry": "Step Entry",
+  "text.autoconfig.fabric_macros.option.StepEntry.minStepDuration": "Minimum Step Duration",
+  "text.autoconfig.fabric_macros.option.StepEntry.minStepDuration.@Tooltip": "Macro will stop if horizontal movement is obstructed before this many ticks have elapsed. Range: 10 - Step Duration",
+  "text.autoconfig.fabric_macros.option.StepEntry.stepDuration": "Step Duration",
+  "text.autoconfig.fabric_macros.option.StepEntry.stepDuration.@Tooltip": "Macro will execute next step after this many ticks have elapsed (or more). Range: Minimum Step Duration and above",
+  "text.autoconfig.fabric_macros.option.StepEntry.keyEntries": "Keys",
+  "text.autoconfig.fabric_macros.option.KeyEntry": "Key Entry",
+  "text.autoconfig.fabric_macros.option.KeyEntry.key": "Key",
+  "text.autoconfig.fabric_macros.option.KeyEntry.pressed": "Pressed"
+}

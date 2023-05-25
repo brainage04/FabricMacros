@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "fabric_macros",
+	"version": "${version}",
+	"name": "Fabric Macros",
+	"description": "Automate everything (well, *almost* everything).",
+	"authors": [
+		"Brainage"
+	],
+	"contact": {
+		"homepage": "https://github.com/brainage04",
+		"sources": "https://github.com/brainage04"
+	},
+	"license": "MIT License",
+	"icon": "assets/fabric_macros/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.brainage.fabric_macros.FabricMacros"
+		],
+		"client": [
+			"com.brainage.fabric_macros.FabricMacrosClient"
+		],
+		"fabric-datagen": [
+			"com.brainage.fabric_macros.FabricMacrosDataGenerator"
+		],
+		"modmenu": [
+			"com.brainage.fabric_macros.config.modmenu.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"fabric_macros.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"update_checker": false
+		}
+	}
+}
